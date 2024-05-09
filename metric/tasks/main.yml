@@ -75,7 +75,7 @@
          owner: root
          group: root
          mode: "0644"
-         become: yes
+      become: yes
 
 - name: Configure Metricbeat
   template:
